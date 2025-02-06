@@ -3,9 +3,11 @@ title: "Second case study"
 description: "My second blog"
 author: Röx
 date: last-modified
-comments:
-  hypothesis:
-    theme: clean
+format:
+  html:
+    code-fold: true
+    toc: true
+    toc-location: left
 ---
 
 This is test case study, with three equations.

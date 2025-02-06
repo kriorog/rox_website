@@ -2,15 +2,15 @@
   {
     "listing": "/case_studies.html",
     "items": [
-      "/case_studies/second_test/second_test_study.html",
-      "/case_studies/test_blog/test_study.html"
+      "/case_studies/second_test/index.html",
+      "/case_studies/test_blog/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/second_test/second_blog_test.html",
-      "/blog/test_blog/first_blog_test.html"
+      "/blog/second_test/index.html",
+      "/blog/test_blog/index.html"
     ]
   }
 ]

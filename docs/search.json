@@ -14,22 +14,22 @@
     "text": "Second case study\n\n\n\n\n\nMy second blog\n\n\n\n\n\nFeb 6, 2025\n\n\nRöx\n\n\n\n\n\n\n\n\n\n\n\n\nTest study\n\n\n\n\n\nMy first blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "case_studies/second_test/second_test_study.html",
-    "href": "case_studies/second_test/second_test_study.html",
+    "objectID": "case_studies/second_test/index.html",
+    "href": "case_studies/second_test/index.html",
     "title": "Second case study",
     "section": "",
     "text": "This is test case study, with three equations.\n\\[\nf(x)=\\frac{h(x)}{g(x)}\n\\tag{1}\\]\n\\[\nf(x)=\\frac{h(x)}{g(x)}\n\\tag{2}\\]"
   },
   {
-    "objectID": "blog/test_blog/first_blog_test.html",
-    "href": "blog/test_blog/first_blog_test.html",
+    "objectID": "blog/test_blog/index.html",
+    "href": "blog/test_blog/index.html",
     "title": "Test blog",
     "section": "",
     "text": "This is test blog, with one equation. \\[f(x) = 2x+1\\]"
   },
   {
-    "objectID": "blog/second_test/second_blog_test.html",
-    "href": "blog/second_test/second_blog_test.html",
+    "objectID": "blog/second_test/index.html",
+    "href": "blog/second_test/index.html",
     "title": "Second blog",
     "section": "",
     "text": "This is test blog, with one equation. \\[f(x) = \\frac{h(x)}{g(x)}\\]"
@@ -42,8 +42,8 @@
     "text": "Second blog\n\n\n\n\n\nMy second blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\n\n\n\n\n\n\nTest blog\n\n\n\n\n\nMy first blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "case_studies/test_blog/test_study.html",
-    "href": "case_studies/test_blog/test_study.html",
+    "objectID": "case_studies/test_blog/index.html",
+    "href": "case_studies/test_blog/index.html",
     "title": "Test study",
     "section": "",
     "text": "This is test blog, with one equation. \\[f(x) = 2x+1\\]"

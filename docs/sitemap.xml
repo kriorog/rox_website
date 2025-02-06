@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.rox.aero/index.html</loc>
-    <lastmod>2025-02-06T21:29:12.333Z</lastmod>
+    <lastmod>2025-02-06T23:01:20.998Z</lastmod>
   </url>
   <url>
     <loc>https://www.rox.aero/case_studies.html</loc>
     <lastmod>2025-02-06T20:53:31.048Z</lastmod>
   </url>
   <url>
-    <loc>https://www.rox.aero/case_studies/second_test/second_test_study.html</loc>
-    <lastmod>2025-02-06T21:12:41.383Z</lastmod>
+    <loc>https://www.rox.aero/case_studies/second_test/index.html</loc>
+    <lastmod>2025-02-06T23:48:18.352Z</lastmod>
   </url>
   <url>
-    <loc>https://www.rox.aero/blog/test_blog/first_blog_test.html</loc>
+    <loc>https://www.rox.aero/blog/test_blog/index.html</loc>
     <lastmod>2025-02-05T22:40:20.362Z</lastmod>
   </url>
   <url>
-    <loc>https://www.rox.aero/blog/second_test/second_blog_test.html</loc>
+    <loc>https://www.rox.aero/blog/second_test/index.html</loc>
     <lastmod>2025-02-05T22:41:55.337Z</lastmod>
   </url>
   <url>
     <loc>https://www.rox.aero/blog.html</loc>
-    <lastmod>2025-02-06T20:53:19.661Z</lastmod>
+    <lastmod>2025-02-06T22:37:43.602Z</lastmod>
   </url>
   <url>
-    <loc>https://www.rox.aero/case_studies/test_blog/test_study.html</loc>
+    <loc>https://www.rox.aero/case_studies/test_blog/index.html</loc>
     <lastmod>2025-02-05T23:17:09.558Z</lastmod>
   </url>
 </urlset>
