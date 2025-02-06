@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/case_studies.html",
+    "items": [
+      "/case_studies/second_test/second_test_study.html",
+      "/case_studies/test_blog/test_study.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/second_test/second_blog_test.html",
+      "/blog/test_blog/first_blog_test.html"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+---
+title: "Case Studies"
+listing:
+  contents: case_studies
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---

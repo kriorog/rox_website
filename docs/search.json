@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kristjan Röx",
+    "section": "",
+    "text": "Welcome to my website.\nI am an aerospace engineer, pilot, and applied mathematician.\nI’ll be publishing blog posts and case studies related to various topics of interest.\nGet in touch by email or via LinkedIn if you have a challenge that you need help with.\n/Röx"
+  },
+  {
+    "objectID": "case_studies.html",
+    "href": "case_studies.html",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Second case study\n\n\n\n\n\nMy second blog\n\n\n\n\n\nFeb 6, 2025\n\n\nRöx\n\n\n\n\n\n\n\n\n\n\n\n\nTest study\n\n\n\n\n\nMy first blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "case_studies/second_test/second_test_study.html",
+    "href": "case_studies/second_test/second_test_study.html",
+    "title": "Second case study",
+    "section": "",
+    "text": "This is test case study, with three equations.\n\\[\nf(x)=\\frac{h(x)}{g(x)}\n\\tag{1}\\]\n\\[\nf(x)=\\frac{h(x)}{g(x)}\n\\tag{2}\\]"
+  },
+  {
+    "objectID": "blog/test_blog/first_blog_test.html",
+    "href": "blog/test_blog/first_blog_test.html",
+    "title": "Test blog",
+    "section": "",
+    "text": "This is test blog, with one equation. \\[f(x) = 2x+1\\]"
+  },
+  {
+    "objectID": "blog/second_test/second_blog_test.html",
+    "href": "blog/second_test/second_blog_test.html",
+    "title": "Second blog",
+    "section": "",
+    "text": "This is test blog, with one equation. \\[f(x) = \\frac{h(x)}{g(x)}\\]"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Second blog\n\n\n\n\n\nMy second blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\n\n\n\n\n\n\nTest blog\n\n\n\n\n\nMy first blog\n\n\n\n\n\nFeb 5, 2025\n\n\nRöx\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "case_studies/test_blog/test_study.html",
+    "href": "case_studies/test_blog/test_study.html",
+    "title": "Test study",
+    "section": "",
+    "text": "This is test blog, with one equation. \\[f(x) = 2x+1\\]"
+  }
+]

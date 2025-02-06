@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+  
+website:
+  # title: "Kristjan Röx"
+  site-url: https://www.rox.aero
+  description: "Röx website"
+  
+  page-footer: 
+    left: "Copyright Kristjan Röx"
+    border: true
+
+  navbar:
+    logo: "figures/rox_logo_transparent.png"
+    background: secondary
+    left:
+      - href: index.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+      - href: case_studies.qmd
+        text: Case Studies
+    
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kristjanrox/
+      - icon: envelope
+        href: mailto:kriorog@gmail.com
+      - icon: rss
+        href: index.xml
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: false
+    html-math-method: mathjax
+
+
+editor: visual

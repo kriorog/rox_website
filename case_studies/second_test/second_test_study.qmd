@@ -1,0 +1,19 @@
+---
+title: "Second case study"
+description: "My second blog"
+author: Röx
+date: last-modified
+comments:
+  hypothesis:
+    theme: clean
+---
+
+This is test case study, with three equations.
+
+$$
+f(x)=\frac{h(x)}{g(x)}
+$$ {#eq-test}
+
+$$
+f(x)=\frac{h(x)}{g(x)}
+$$ {#eq-test2}
