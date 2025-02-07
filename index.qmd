@@ -18,7 +18,7 @@ format:
     title-block-banner: false
 ---
 
-*Welcome to my website.*
+**Welcome to my website.**
 
 I am an aerospace engineer, pilot, and applied mathematician.
 
