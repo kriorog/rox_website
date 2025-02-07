@@ -12,9 +12,13 @@ about:
       href: https://www.linkedin.com/in/kristjanrox/
     - icon: envelope
       href: mailto:kriorog@gmail.com
+      
+format:
+  html:
+    title-block-banner: false
 ---
 
-Welcome to my website.
+*Welcome to my website.*
 
 I am an aerospace engineer, pilot, and applied mathematician.
 

@@ -34,10 +34,14 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
-    smooth-scroll: false
+    title-block-banner: true
+    highlight-style: atom-one
+    smooth-scroll: true
     html-math-method: mathjax
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.quarto\.org\/custom'
 
 
 editor: visual
