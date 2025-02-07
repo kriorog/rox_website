@@ -24,6 +24,6 @@ I am an aerospace engineer, pilot, and applied mathematician.
 
 I'll be publishing [blog posts](blog.qmd) and [case studies](case_studies.qml) related to various topics of interest.
 
-[Get in touch by email](mailto:kriorog@gmail.com) or via [LinkedIn](www.linkedin.com/in/kristjanrox) if you have a challenge that you need help with.
+[Get in touch by email](mailto:kriorog@gmail.com) or via [LinkedIn](https://www.linkedin.com/in/kristjanrox) if you have a challenge that you need help with.
 
 /Röx
