@@ -7,9 +7,10 @@ website:
   # title: "Kristjan Röx"
   site-url: https://www.rox.aero
   description: "Röx website"
+  favicon: "figures/rox_logo_transparent.png"
   
   page-footer: 
-    left: "Copyright Kristjan Röx"
+    left: "Copyright Kristjan Röx 2025"
     border: true
 
   navbar:
