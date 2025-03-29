@@ -1,8 +1,0 @@
----
-title: "Second blog"
-description: "My second blog"
-author: Röx
-date: "05-FEB-2025"
----
-
-This is test blog, with one equation. $$f(x) = \frac{h(x)}{g(x)}$$

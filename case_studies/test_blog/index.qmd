@@ -1,8 +1,0 @@
----
-title: "Test study"
-description: "My first blog"
-author: Röx
-date: last-modified
----
-
-This is test blog, with one equation. $$f(x) = 2x+1$$
