@@ -1,0 +1,50 @@
+---
+title: "The start of something beautiful"
+description: "...or a restart"
+author: "Röx"
+date: "25-MAR-2025"
+---
+
+# Prelude
+
+The title of this post is a play on the title of a Porcupine Tree song from their 2004 album *Deadwing*. I recommend listening to the song while you read.
+
+{{< video https://www.youtube.com/watch?v=1RKUudgJ6FA&ab_channel=PorcupineTree-Topic >}}
+
+I intend for this post to provide a roadmap or a guide for what I foresee with this website and its future content, mainly for myself. I don't want to lay down any rules for what will be covered and what not, rather to put down my initial vision on the record.
+
+My primary reason for setting up this website is to avoid skill atrophy. These skills are ones that I have worked hard to acquire and hate to see them wither away. Unfortunately some atrophy has already set in, so I'll have to begin with revisiting some fundamentals before going further, i.e. a *restart*.
+
+A common problem post-graduation is the realization that the world doesn't have the need for the particular set of skills or interest that one has. Or, perhaps more appropriately, it is unlikely to find oneself in circumstances where that is the case. That does not mean it is not possible, but unlikely. A perfect circumstance does not exist...or does it? Sounds philosophical.
+
+Mathematics focuses in part on such questions, i.e. the existence of solutions without explicitly finding them. Just showing that a solution exists is generally a good first step in one's quest for solutions, and *often* simpler but not always. If no solution exists, then don't waste your time searching for one. For the time being, I'll stick with the existence of the perfect circumstance being unlikley, without further quantification...then again what is "perfect"?
+
+But...it seems like we are dealing with a finite set of perfect circumstances $S$ in a countably infinite set $\Omega$ of all possible circumstances. $S$ is assumed to be finite considering it contains defined circumstances, based on preferences and a specific set of criteria.
+
+The probability $P(S)$ finding oneself in a "perfect" circumstance in $S$ from $\Omega$ is $$P(S) = \frac{|S|}{|\Omega|}.$$ where $|\cdot|$ is the set cardinality, i.e. the number of elements in the set. One can see the result here, or the problem in the statement. The cardinality of $\Omega$ is not defined as the set is infinite, so the above probability is arithmetically invalid. Therefore, the appropriately rigorous approach is to evaluate the probability $P(S)$ in the limit as the cardinality of $\Omega$ approaches infinity
+
+$$\lim_{|\Omega| \to \infty} P(S) = \lim_{|\Omega| \to \infty} \frac{|S|}{|\Omega|} = 0.$$
+
+In other words, it is improbable to draw at random a perfect circumstance from the set of inifnitely many possible circumstances. This is not very uplifting. The key here is that it is improbable to find oneself in the perfect circumstances, not impossible. The first draw might be perfect, but I would not bet on it.
+
+Also, one does not get one draw in life, there may be successive draws. One could then consider the distribution of $k$ successful draws from total $N$ draws following a $binomial$ distribution $$P(k) = 
+\begin{pmatrix}
+N\\
+k
+\end{pmatrix}
+P(S)^k(1-P(S))^{N-k}.
+$$ This approach is uttely pointless since $P(S)=0$, thus $P(k)=0$ for any $k \leq N$. Again, rather depressing. No matter how often you try, achieveing a perfect circumstance at least once is improbable.
+
+Here I've not shown the perfect circumstance(s) not to exist, just that it is improbable to find oneself in it. They may be somewhere in $\Omega$, just drowned out by all things imperfect.
+
+This reasoning has its flaws.It is not intended to be complete, but descriptive. Of course, one does not draw directly from the global $\Omega$. Rather, one draws from a potentially finite subset $\omega \subseteq \Omega$, whose elements are dependent on various factors, such a geographic location or other real world constraints. Still though, one does not control what elements are in $\omega$, so they are as good as randomly drawn from $\Omega$. So obtaining an $\omega$ with $N$ elements with at least one perfect circumstance is akin to the binomial approach above for $k=1$, which has zero probability.
+
+Another potential flaw is that I'm focusing on *perfect* circumstances. That may not be a flaw per se, since I've reasoned that finding oneself in such circumstance is highly improbable. I could relax the definintion of the set $S$ to include all *acceptable* circumstances not only those that are *perfect*, calling that set $S'$. Is $S'$ finite or infinite? What makes circumstances acceptable? This is quite subjective, and as such may yield $S'$ having to be considered as being countably infinite.
+
+So what is $P(S')$? We can approach it in the same way as before
+
+$$\lim_{|\Omega|, |S'| \to \infty} P(S') = \lim_{|\Omega|, |S'| \to \infty} \frac{|S'|}{|\Omega|} = 0.$$ I justify this result with L'Hopital's rule, considering the rate of change in $|S'|$ being much less than the change in $|\Omega|$ as they both tend to infinity. I think this makes sense, since $S' \subseteq \Omega$ with a much stricter admission criteria. However, one can adjust the definition of being *acceptable* to be close to everything, i.e. $S' \to \Omega$, making $P(S')$ approach unity, but I exclude such scenarios. *Acceptable* should deviate only marginally from *perfect*.
+
+So, regardless of circumstances being perfect or acceptable, finding oneself in either is still improbable, though neither is impossible.
+
+# The vision
