@@ -1,5 +1,5 @@
 ---
-title: "Case Studies"
+title: "Kristjan Röx | Case Studies"
 listing:
   contents: case_studies
   sort: "date desc"
