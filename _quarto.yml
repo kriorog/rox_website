@@ -10,7 +10,7 @@ website:
   favicon: "figures/rox_logo_transparent.png"
   
   page-footer: 
-    left: "Copyright Kristjan Röx 2025"
+    left: "Copyright Kristjan Röx. All rights reserved."
     border: true
 
   navbar:
