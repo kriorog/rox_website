@@ -42,6 +42,3 @@ format:
     html-math-method: mathjax
 
 editor: visual
-
-resources:
-  - CNAME
