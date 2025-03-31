@@ -5,7 +5,7 @@ project:
   
 website:
   # title: "Kristjan Röx"
-  site-url: https://www.rox.aero
+  site-url: https://www.kristjanrox.com
   description: "Röx website"
   favicon: "figures/rox_logo_transparent.png"
   
