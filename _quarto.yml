@@ -34,8 +34,7 @@ website:
       
 format:
   html:
-    theme: 
-      light: flatly
+    theme: flatly
     toc: true
     title-block-banner: true
     highlight-style: atom-one
