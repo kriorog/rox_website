@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.kristjanrox.com/index.html</loc>
-    <lastmod>2025-04-03T22:20:43.806Z</lastmod>
+    <lastmod>2025-04-03T22:25:46.003Z</lastmod>
   </url>
   <url>
     <loc>https://www.kristjanrox.com/about.html</loc>
-    <lastmod>2025-04-03T22:13:11.713Z</lastmod>
+    <lastmod>2025-04-03T22:26:04.055Z</lastmod>
   </url>
   <url>
-    <loc>https://www.kristjanrox.com/blog/test_blog/index.html</loc>
+    <loc>https://www.kristjanrox.com/articles/test_blog/first_blog.html</loc>
     <lastmod>2025-03-29T14:23:40.771Z</lastmod>
   </url>
 </urlset>
