@@ -17,6 +17,8 @@ website:
     logo: "figures/rox_logo_transparent.png"
     background: primary
     left:
+      - href: articles.qmd
+        text: Articles
       - href: about.qmd
         text: About
     
