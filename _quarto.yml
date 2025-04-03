@@ -17,12 +17,8 @@ website:
     logo: "figures/rox_logo_transparent.png"
     background: primary
     left:
-      - href: index.qmd
+      - href: about.qmd
         text: About
-      - href: blog.qmd
-        text: Blog
-      - href: case_studies.qmd
-        text: Case Studies
     
     right:
       - icon: linkedin

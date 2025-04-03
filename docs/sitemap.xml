@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.kristjanrox.com/index.html</loc>
-    <lastmod>2025-04-03T22:10:19.150Z</lastmod>
+    <lastmod>2025-04-03T22:14:41.273Z</lastmod>
   </url>
   <url>
-    <loc>https://www.kristjanrox.com/blog.html</loc>
-    <lastmod>2025-04-03T22:09:22.471Z</lastmod>
+    <loc>https://www.kristjanrox.com/about.html</loc>
+    <lastmod>2025-04-03T22:13:11.713Z</lastmod>
   </url>
   <url>
     <loc>https://www.kristjanrox.com/blog/test_blog/index.html</loc>
     <lastmod>2025-03-29T14:23:40.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.kristjanrox.com/case_studies.html</loc>
-    <lastmod>2025-04-03T22:08:28.039Z</lastmod>
   </url>
 </urlset>

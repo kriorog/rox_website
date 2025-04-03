@@ -1,12 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
       "/blog/test_blog/index.html"
     ]
-  },
-  {
-    "listing": "/case_studies.html",
-    "items": []
   }
 ]

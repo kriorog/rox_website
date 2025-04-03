@@ -1,29 +1,9 @@
 ---
-title: Kristjan Röx
-toc: false
-about:
-  template: trestles
-  image: figures/kristjan_profile_full.jpg
-  image-shape: round
-  image-width: 20em
-  links:
-    - icon: linkedin
-      text: LinkdeIn
-      href: https://www.linkedin.com/in/kristjanrox/
-    - icon: envelope
-      href: mailto:kriorog@gmail.com
-      
-format:
-  html:
-    title-block-banner: false
+title: "Blog"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
 ---
-
-**Welcome to my website.**
-
-I am an aerospace engineer, pilot, and applied mathematician.
-
-I'll be publishing [blog posts](blog.qmd) and [case studies](case_studies.qmd) related to various topics of interest.
-
-Feel free to [get in touch by email](mailto:kriorog@gmail.com) or via [LinkedIn](https://www.linkedin.com/in/kristjanrox).
-
-/Röx
