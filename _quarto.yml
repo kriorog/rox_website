@@ -15,7 +15,7 @@ website:
 
   navbar:
     logo: "figures/rox_logo_transparent.png"
-    background: secondary
+    background: primary
     left:
       - href: index.qmd
         text: About
@@ -34,7 +34,8 @@ website:
       
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: flatly
     toc: true
     title-block-banner: true
     highlight-style: atom-one
