@@ -1,5 +1,5 @@
 ---
-title: "Kristjan Röx | Blog"
+title: "Blog"
 listing:
   contents: blog
   sort: "date desc"
