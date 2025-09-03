@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.kristjanrox.com/index.html</loc>
-    <lastmod>2025-04-03T22:36:40.580Z</lastmod>
+    <lastmod>2025-09-03T19:55:58.184Z</lastmod>
   </url>
   <url>
     <loc>https://www.kristjanrox.com/about.html</loc>
@@ -11,5 +11,9 @@
   <url>
     <loc>https://www.kristjanrox.com/articles/test_blog/first_blog.html</loc>
     <lastmod>2025-04-03T22:27:25.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.kristjanrox.com/articles/tekna_blog/blog post 2.html</loc>
+    <lastmod>2025-09-03T19:50:46.652Z</lastmod>
   </url>
 </urlset>

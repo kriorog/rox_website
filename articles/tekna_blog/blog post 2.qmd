@@ -1,0 +1,170 @@
+---
+title: "Aircraft W&B - Part 2 - An element of efficiency"
+author: "Kristjan Röx"
+date: "01 September 2025"
+format: 
+  html:
+    theme: lumen
+    toc: true
+    toc-title: Contents
+    toc-depth: 3
+    smooth-scroll: true
+    numbered-sections: true
+    fig-caption: true
+---
+
+In Part 1 of this series - the fundamental requirements and building blocks of aircraft weight & balance were introduced.
+
+The key take-away was that weight and balance is **a key element in aviation safety**.
+
+The establishment of weight and balance as a matter of safety only focused on the aircraft's weight and Center of Gravity (CG) being inside the weight and balance envelope.
+
+This is a binary requirement, i.e. either it is inside the envelope or outside. No consideration was made to where inside the envelope the aircraft CG was, as that was not a concern for safety.
+
+In this Part 2 of the series - we'll investigate how CG certain locations inside the envelope are better than others and how an aircraft's weight and balance affects operational efficiency.
+
+::: {.callout-note}
+## A few things to keep in mind 
+::: {.panel-tabset}
+
+Before going further, there are a few elements to keep in mind:
+
+### the first thing
+
+A certain CG should always be considered for an associated aircraft weight. The limits on allowable CG vary with weight.
+
+### the second thing
+
+We are typically only concerned with longitudinal CG, i.e. the location of the CG along the fuselage between nose to tail.
+
+Lateral CG also exists, but is typically not a concern for passenger aircraft, since load is distributed sufficiently symmetrically across the longitudinal axis of the aircraft.
+
+For cargo aircraft, lateral CG may also be evaluated and compared with associated limits.
+
+In this article - we'll be discussing only longitudinal CG.
+:::
+:::
+
+## How does W&B affect operational efficiency?
+The weight and balance of an aircraft will affect two aspects of operational efficiency:
+
+1. Firstly, the aircraft CG, which is determined by the load distribution, affects the fuel efficiency of the aircraft in flight. Therefore, certain CG locations are better than others.
+
+2. Secondly, the distribution of load on an aircraft determines the process of loading and unloading the aircraft before and after flight respectively, which then affects the same process on the next flight of the aircraft and so on. Certain items have higher priority than others, and must be able to be offloaded first.\
+\
+Overall, efficient loading and unloading processes strike a balance between the time  they take and how many resources they required.\
+\
+We'll refer to this aspect of efficiency as *loading ergonomics*.
+
+We'll look into each of these aspect in more detail.
+
+## Certain CG locations are better than others {.tabset}
+
+CG locations further aft along the aircraft fuselage are better.
+
+**Question:** In what sense are aft CG locations better?
+
+**Answer:** Aft CG reduces the aircraft's aerodynamic drag, which then reduces the required thrust from the engine, which saves fuel.
+
+To explain why this is the case, we need some physics and math. If that is not your forte, then please follow along regardless, as there is commentary provided along the way.
+
+::: {.panel-tabset}
+### The math
+
+Consider a transport aircraft with weight $W$ in steady and level flight at an angle of attack $\alpha$ relative to the oncoming airflow. The below figure shows such an aircraft and the forces acting on it due to the wings and tail, and due to its own weight. For our demonstration, we only need to consider those forces.
+
+![A typical transport aircraft in steady flight.](force_model.png)
+
+The lift $L_w$ and moment $M_w$ from the wing are applied at the same point - the aerodynamic center of the wing. Similarly, the lift $L_t$ and moment $M_t$of the tail are calculated at the aerodynamic center of the tail.
+
+The aerodynamic center of a lifting surface is a *point of convenience*. The convenience associated with this point is that the moment $M$ becomes independent of the angle of attack $\alpha$. Therefore, in our model, both $M_w$ and $M_t$ are constants with respect to $\alpha$.
+
+The aerodynamic centers of the wing and tail are fixed points on the aircraft geometry, therefore we can define the distances $s_w$ and $s_t$, which represent the distance between the CG and the aerodynamic centers of the wing and tail respectively.
+
+Since the aerodynamic centers are fixed, the distance between them is also fixed. Therefore, we can also define their fixed spacing $s = s_t-s_w$.
+
+For steady state to prevail - the aircraft must be in both a force and moment equilibrium around its CG. To establish this, the sum of all forces and moments, separately, must vanish (i.e. be zero).
+
+First, let's look at the forces: \begin{align}
+    \sum_{\text{around CG}} \text{Forces} &= L_w - L_t -W = 0 \Rightarrow \boxed{W = L_w - L_t}\\
+\end{align}
+
+This tells us that the total lift of the aircraft, i.e. the sum of lift from wing and tail, must be equal to the aircraft's weight. The boxed relation will be used later on.
+
+Next, let's look at the moments (around the CG): \begin{align}
+    \sum_{\text{around CG}} \text{Moments}   &= L_w s_w - L_t s_t + M_w - M_t = 0\\
+    \Rightarrow L_w &= \frac{L_t s_t - M_w + M_t}{s_w}\\
+\end{align} Here, we have re-arranged the terms of the moment equilibrium criteria and isolated the lift of the wing $L_w$.
+
+We can now use the boxed result from the force equilibrium above and replace $L_t$ with the relation $L_t = L_w - W$. This gives us \begin{align}
+  L_w &= \frac{(L_w-W)s_t - M_w + M_t}{s_w}\\
+  \Rightarrow L_w\left(1 - \frac{s_t}{s_w}\right) &= \frac{M_t - M_w - Ws_t}{s_w}\\
+  \Rightarrow L_w &= \frac{M_t - M_w - W s_t}{s_w-s_t}
+\end{align} Remembering that $s = s_t-s_w$ and thus $-s = s_w-s_t$, we obtain \begin{align}
+  L_w &= \frac{W(s_w+s) - M_t - M_w}{s}
+\end{align}
+
+Here we have derived a relationship between the wing's lift $L_w$ and the CG logation relative to the wing through $s_w$. Other parameters are constants.
+
+What is interesting to investigate, is how $L_w$ changes if the CG is moved, i.e. if $s_w$ changes.
+
+Mathematically, we do this by checking the derivative $\frac{dL_w}{ds_t}$, which is $$\frac{dL_w}{ds_w} = \frac{W}{s} > 0$$ which is positive and constant at given weight $W$.
+
+For a finite change in the CG location $\Delta s_w$ we can then determine the associated change in the wing's lift $\Delta L_w$ as $$\Delta L_w = \frac{W}{s}\Delta s_w$$
+
+Right...what does this tell us?
+
+-   If we move the CG forward, then $\Delta s_w$ is positive as the distance between the CG and the wing's aerodynamic center increases. This makes $\Delta L_w$ positive, i.e. the **lift increases**.
+
+-   If we move the CG aft, then $\Delta s_w$ is negative, and $\Delta L_w$ is also negative, i.e. the **lift decreases**.
+
+Therefore, a more forward CG location requires the wing to generate more lift.
+
+### More lift, more drag
+
+We have established that a more forward CG requires more lift from the wing.
+
+The fuel burn of an aircraft is determined by the required thrust $T$ from the engines. For steady flight, the thrust $T$ must be equal to the drag $D$.
+
+The total drag of an aircraft in steady flight can be modelled with its drag polar as $$D = qS_w\left(C_{D0} + k_wC_{Lw}^2 + k_t\frac{S_t}{S_w}C_{Lt}^2\right)$$ where:
+
+-   $C_{D0}$ is the zero-lift drag of the aircraft.
+
+-   $k_w C_{Lw}^2$ and $k_t\frac{S_t}{S_w}C_{Lt}^2$ are the **lift-induced drag** components of the wing and tail respectively.
+
+-   $k_w$ and $k_t$ are efficiency factors of the wing and tail lifting surfaces respectively.
+
+-   $C_{Lw}$ and $C_{Lt}$ are the lift-coefficients of the wing and tail respectively.
+
+-   $S_w$ and $S_t$ are the reference surface areas of the wing and tail respectively.
+
+-   $q$ is dynamic pressure.
+
+As the wing is a much larger lifting surface than the tail, its contribution to lift-induced drag is also much larger. Therefore, the drag polar can be simplified, without loss of generality, to $$ D = qS_w \left(C_{D0} + k_w C_{Lw}^2 \right) $$ This is also the reason we focued on $L_w$ in the previous section.
+
+The wing lift from before, $L_w$, can be written as $$ L_w = qS_{w}C_{Lw} $$
+
+So, at constant dynamic pressure $q$ (i.e. fixed altitude and speed), more lift $L_w$ is requires a larger $C_{Lw}$ (i.e. a higher angle of attack $\alpha$).
+
+We are now interested in the change in drag with lift, i.e. the derivative $\frac{dD}{dC_{Lw}}$.
+
+Taking the derivative of the simplified drag polar with respect the $C_{Lw}$ we obtain $$\frac{dD}{dC_{Lw}} = \left(\frac{2k_w}{qS_w}\right)C_{Lw}$$ where the bracketed term is always positive and $C_{Lw}>0$ for positive lift.
+
+Therefore, a finite increase in the wing lift through the lift coefficient $\Delta C_{Lw}$ yields a finite change in drag $\Delta D$
+
+$$\Delta D = \left(\frac{2k_w}{qS_w}C_{Lw}\right) \Delta C_{Lw}$$
+
+For an increase in lift, i.e. $\Delta C_{Lw} > 0$, then $\Delta D >0$ representing an increase in drag.
+
+### Tying it all together
+
+At last, we have shown that a more forward CG requires more lift from the aircraft's wing.
+
+We have also shown that a higher lift from the wing results in higher drag on the aircraft, as it causes higher lift-induced drag.
+
+The higher drag will require higher thrust from the engines to maintain steady flight.
+
+Consequently, higher thrust requires more fuel burn.
+:::
+
+## Loading ergonomics
