@@ -5,7 +5,7 @@ project:
   
 website:
   # title: "Kristjan Röx"
-  site-url: "https://www.kristjanrox.com"
+  site-url: "https://kriorog.github.io/rox_website/"
   description: "Röx website"
   favicon: "figures/rox_logo_transparent.png"
   draft-mode: gone
