@@ -5,5 +5,9 @@
 ./venv/
 
 /.quarto/
+/_site/
+/site_libs/
+/.jupyter/
+.ipynb_checkpoints/
 
 **/*.quarto_ipynb
