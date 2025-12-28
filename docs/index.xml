@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Kristjan Röx</title>
+<link>https://www.kristjanrox.com/</link>
+<atom:link href="https://www.kristjanrox.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Röx website</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Mon, 29 Dec 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Monty Hall Problem</title>
+  <dc:creator>Kristjan Röx</dc:creator>
+  <link>https://www.kristjanrox.com/articles/monty_hall/monty_hall.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Monty Hall Problem is a famous probability puzzle based on a game show scenario. It is named after Monty Hall, the original host of the television game show “Let’s Make a Deal.” The problem is known for its counterintuitive solution, which often surprises people.</p>
+<p>The problem was first posed by Steve Selvin in a letter to the journal “The American Statistician” in 1975. It gained widespread attention after being featured in Marilyn vos Savant’s “Ask Marilyn” column in Parade magazine in 1990.</p>
+<p>Marilyn’s response sparked a significant public debate, as many readers found the solution counterintuitive and disagreed with her explanation. The Monty Hall Problem has since become a classic example in probability theory and is often used to illustrate the importance of considering all available information when making decisions.</p>
+<p>Savant’s solution has been hotly contested and debated, with many people finding it counterintuitive. But why is it so?</p>
+<section id="the-basic-problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="the-basic-problem-statement">The basic problem statement</h2>
+<p>The original problem is as follows:1. You are a contestant on a game show. 2. There are three doors: behind one door is a car (the prize you want), and behind the other two doors are goats (which you don’t want). 3. You pick one door (say, Door 1). 4. The host, who knows what’s behind all the doors, opens another door (say, Door 3) that has a goat behind it. 5. The host then gives you the option to switch your choice to the remaining unopened door (Door 2) or stick with your original choice (Door 1).</p>
+<p>What should you do to maximize your chances of winning the car?</p>
+<p>The immediate intuition might suggest that since we now have two doors to choose from, the odds are 50/50, and it doesn’t matter whether we switch or stay. However, this is not the case.</p>
+<p>The correct solution is that you should always switch doors. By switching, you have a 2/3 chance of winning the car, while if you stick with your original choice, you only have a 1/3 chance. This is the solution given by Marilyn vos Savant. However, this solution is dependent on the exact problem statement given. If the problem statement is changed, in particular the host’s behavior, the solution may also change.</p>
+<p>The disagreements and debates around the Monty Hall Problem often stem from misunderstandings of the problem’s conditions and the role of the host’s actions. Many people assume that the host’s choice to open a door is random, but in reality, the host always opens a door with a goat behind it, which provides additional information that affects the probabilities.</p>
+</section>
+<section id="its-all-about-what-information-is-known" class="level2">
+<h2 class="anchored" data-anchor-id="its-all-about-what-information-is-known">It’s all about what information is known</h2>
+<p>The fundamentals of probabilities and conditional problems are directly related to what information is known and by whom.</p>
+<p>In the beginning, we have three doors, and the probability of the car being behind any door is 1/3. When you pick a door, you have a 1/3 chance of having picked the car and a 2/3 chance of having picked a goat. We do not know where the car is, and do not have any other information at this time to help us make a better choice. The probabilities are unformly distributed between all options.</p>
+<p>However, after we make our initial choice, the host’s actions are not random. Therein lies the key to understanding the problem. The host knows where the car is and will always open a door that has a goat behind it. This action provides us with new information that changes the probabilities. We can reinforce this understanding by considering the following: 1. The host will never open the door you initially picked. 2. The host knows where the car is and will always open a door with a goat behind it.</p>
+<p>Out of the two doors we did not choose, the host’s choice between those two doors provides valuable information to our problem which is not random, and thus allows us to update our probabilities for the remaining two unopened doors.</p>
+<p>However, had the host opened a door at random, even possibly the one we initially picked, the probabilities would remain 50/50 between the two remaining doors, as no new information would have been provided that allows us to updated our probabilities from the initial uniform probabilities.</p>
+<p>Consider also an innocent bystander who knows nothing about what has happened, which door the contenstant chose and just sees two doors left unopened. For this bystander, the probabilities are indeed 50/50 between both doors - as they have no additional information - but for you as the contenstant, the probabilities are 2/3 in favour of switching from your initial choice.</p>
+</section>
+<section id="the-solution" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution">The solution</h2>
+<p>So, here is the full solution.</p>
+<p>We have gone over the probabilities at the initial choice of door by the contestant, the one chosen has probability <img src="https://latex.codecogs.com/png.latex?p=1/3"> of having the car, the other two doors have a combined probability of <img src="https://latex.codecogs.com/png.latex?1-p=2/3"> of having the car. The probabilities add up to 1 since there is only one car and one door must be openend - i.e.&nbsp;something will happen, either a car is revealed or not.</p>
+<p>Although there is 2/3 probability of the car being behind either of the other two doors, we don’t know which one out of those two to pick. We need more information to make a better choice.</p>
+<p>However, the host’s knowledge and actions will help us with this problem. Since the host will only choose a door out of the two unchosen doors, and will never open the door with the car - should it be behind either of them - the other door he did not choose becomes more valuable to us, since the full 2/3 probability of the car being beind either of the two unchosen doors now tranfers fully to the door not chosen by the host. We now don’t have to choose between the other two doors, the host has eliminated one for us free of charge. This is called variable change - i.e the actions by the host changes the variables of our problem.</p>
+<p>There is a famous classroom scene in the movie “21” from 2008 where this is explained quite well (see below). There is also a great numberphile video explaining the problem and solution in detail.</p>
+<p>Here is the scene from 21:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYyUuIXzGgI?si=ZzQt_6Rw4SgkQ8tK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<p>Here is the numberphile video: <iframe width="560" height="315" src="https://www.youtube.com/embed/4Lb-6rxZxx0?si=U1YkX6bK8eU1r6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p>The scene from 21 is also of interest from the other topic discussed, namely Newton’s method - or Newton-Raphson method - for finding roots of functions and the possible issues with that method. This is a topic for another time though.</p>
+</section>
+<section id="different-host-behavior" class="level2">
+<h2 class="anchored" data-anchor-id="different-host-behavior">Different host behavior</h2>
+<p>It is important to note that the solution to the Monty Hall Problem is dependent on the host’s behavior. If the host’s actions were different, the probabilities and optimal strategy could change. For example, if the host were to open a door at random, without knowledge of what is behind the doors, the probabilities would indeed be 50/50 between the two remaining doors after one is opened, and switching or staying would not matter. In other words, such behaviour by the host would not provide any additional information to the contestant.</p>
+<p>We can look at various different host behaviors and see how they affect the solution:</p>
+<ol type="1">
+<li><p><strong>Host always opens a door with a goat (standard Monty Hall Problem)</strong>: The optimal strategy is to always switch, giving a 2/3 chance of winning the car.</p></li>
+<li><p><strong>Host opens a door at random</strong>: The optimal strategy is to stick with the original choice, as the probabilities are 50/50 between the two remaining doors.</p></li>
+<li><p><strong>Host only opens a door if the contestant initially picked the car</strong>: In this case, the optimal strategy is to always stick with the original choice, as switching would lead to a guaranteed loss.</p></li>
+<li><p><strong>Host opens a door only if the contestant initially picked a goat</strong>: Here, the optimal strategy is to always switch, as switching would lead to a guaranteed win.</p></li>
+</ol>
+<p>These variations illustrate how the host’s behavior can significantly impact the probabilities and optimal strategies in the Monty Hall Problem.</p>
+</section>
+<section id="reinforcement-through-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="reinforcement-through-simulation">Reinforcement through simulation</h2>
+<p>To further reinforce the understanding of the Monty Hall Problem, we can simulate the game multiple times to see how often switching versus staying leads to winning the car. Below is a simple Python simulation that demonstrates this. The contestant and host choices are randomly (pseud-randomly) generated to mimic the game scenario. The simulation is run for a large number of trials to get statistically significant results, providing a point estimate of the probability of choosing the right door <img src="https://latex.codecogs.com/png.latex?p"> vs.&nbsp;switching <img src="https://latex.codecogs.com/png.latex?1-p">.</p>
+<p>This code is essentially simulating a Bernoulli process where each trial results in either a win or a loss based on the chosen strategy (switching or staying). By running the simulation multiple times, we can estimate the sample probabilities of winning for each strategy, taking advantage of the law of large numbers for the sample probabilities convering towards the true probabilities.</p>
+<p>Run the following code cell by clicking “RUN CODE” in the upper right corner. Adjust the code as you please to experiment with different numbers of trials or strategies.</p>
+<div id="285482cc" class="cell" data-runbutton="true" data-number-lines="true">
+<div>
+<div id="pyodide-1" class="exercise-cell">
+
+</div>
+<script type="pyodide-1-contents">
+eyJhdHRyIjp7ImNvZGUtc3VtbWFyeSI6Ik1vbnR5IEhhbGwgU2ltdWxhdGlvbiIsImVkaXQiOnRydWUsImV2YWwiOnRydWV9LCJjb2RlIjoiIyBzaW11bGF0aW9uIGNvZGUgZm9yIE1vbnR5IEhhbGwgUHJvYmxlbVxuaW1wb3J0IHJhbmRvbVxuZGVmIG1vbnR5X2hhbGxfc2ltdWxhdGlvbihudW1fdHJpYWxzKTpcbiAgICBzd2l0Y2hfd2lucyA9IDBcbiAgICBzdGF5X3dpbnMgPSAwXG5cbiAgICBmb3IgXyBpbiByYW5nZShudW1fdHJpYWxzKTpcbiAgICAgICAgIyBTdGVwIDE6IFNldCB1cCB0aGUgZG9vcnNcbiAgICAgICAgZG9vcnMgPSBbJ2dvYXQnLCAnZ29hdCcsICdjYXInXVxuICAgICAgICByYW5kb20uc2h1ZmZsZShkb29ycylcblxuICAgICAgICAjIFN0ZXAgMjogQ29udGVzdGFudCBtYWtlcyBhIGNob2ljZVxuICAgICAgICBjb250ZXN0YW50X2Nob2ljZSA9IHJhbmRvbS5yYW5kaW50KDAsIDIpXG5cbiAgICAgICAgIyBTdGVwIDM6IEhvc3Qgb3BlbnMgYSBkb29yIHRoYXQgaGFzIGEgZ29hdFxuICAgICAgICBob3N0X29wdGlvbnMgPSBbaSBmb3IgaSBpbiByYW5nZSgzKSBpZiBpICE9IGNvbnRlc3RhbnRfY2hvaWNlIGFuZCBkb29yc1tpXSA9PSAnZ29hdCddXG4gICAgICAgIGhvc3Rfb3BlbnMgPSByYW5kb20uY2hvaWNlKGhvc3Rfb3B0aW9ucylcblxuICAgICAgICAjIFN0ZXAgNDogQ29udGVzdGFudCBzd2l0Y2hlcyBvciBzdGF5c1xuICAgICAgICBzd2l0Y2hfY2hvaWNlID0gW2kgZm9yIGkgaW4gcmFuZ2UoMykgaWYgaSAhPSBjb250ZXN0YW50X2Nob2ljZSBhbmQgaSAhPSBob3N0X29wZW5zXVswXVxuXG4gICAgICAgICMgU3RlcCA1OiBEZXRlcm1pbmUgb3V0Y29tZXNcbiAgICAgICAgaWYgZG9vcnNbY29udGVzdGFudF9jaG9pY2VdID09ICdjYXInOlxuICAgICAgICAgICAgc3RheV93aW5zICs9IDFcbiAgICAgICAgaWYgZG9vcnNbc3dpdGNoX2Nob2ljZV0gPT0gJ2Nhcic6XG4gICAgICAgICAgICBzd2l0Y2hfd2lucyArPSAxXG5cbiAgICByZXR1cm4gc3RheV93aW5zLCBzd2l0Y2hfd2luc1xuXG5zdGF5X3dpbnMsIHN3aXRjaF93aW5zID0gbW9udHlfaGFsbF9zaW11bGF0aW9uKDEwMDAwKVxucHJpbnQoZlwiU3RheWluZyB3b24ge3N0YXlfd2luc30gdGltZXMuXCIpXG5wcmludChmXCJTd2l0Y2hpbmcgd29uIHtzd2l0Y2hfd2luc30gdGltZXMuXCIpXG5wcmludChmXCJTdGF5IHdpbiByYXRpbzoge3N0YXlfd2lucyAvIChzdGF5X3dpbnMgKyBzd2l0Y2hfd2lucyk6LjJmfVwiKVxucHJpbnQoZlwiU3dpdGNoIHdpbiByYXRpbzoge3N3aXRjaF93aW5zIC8gKHN0YXlfd2lucyArIHN3aXRjaF93aW5zKTouMmZ9XCIpIn0=
+</script>
+</div>
+</div>
+<p>/Kristjan Röx</p>
+
+
+<script type="pyodide-data">
+eyJvcHRpb25zIjp7ImVudiI6eyJQTE9UTFlfUkVOREVSRVIiOiJwbG90bHlfbWltZXR5cGUifSwiaW5kZXhVUkwiOiJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvcHlvZGlkZS92MC4yOC4xL2Z1bGwvIn0sInBhY2thZ2VzIjp7InBrZ3MiOlsicHlvZGlkZV9odHRwIiwibWljcm9waXAiLCJpcHl0aG9uIl19fQ==
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3siY2VsbE5hbWUiOiJweW9kaWRlLTEiLCJpbmxpbmUiOmZhbHNlLCJtZXRob2ROYW1lIjoiaW50ZXJwcmV0Iiwic291cmNlIjoidmlld29mIF9weW9kaWRlX2VkaXRvcl8xID0ge1xuICBjb25zdCB7IFB5b2RpZGVFeGVyY2lzZUVkaXRvciwgYjY0RGVjb2RlIH0gPSB3aW5kb3cuX2V4ZXJjaXNlX29qc19ydW50aW1lO1xuXG4gIGNvbnN0IHNjcmlwdENvbnRlbnQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKGBzY3JpcHRbdHlwZT1cXFwicHlvZGlkZS0xLWNvbnRlbnRzXFxcIl1gKS50ZXh0Q29udGVudDtcbiAgY29uc3QgYmxvY2sgPSBKU09OLnBhcnNlKGI2NERlY29kZShzY3JpcHRDb250ZW50KSk7XG5cbiAgY29uc3Qgb3B0aW9ucyA9IE9iamVjdC5hc3NpZ24oeyBpZDogYHB5b2RpZGUtMS1jb250ZW50c2AgfSwgYmxvY2suYXR0cik7XG4gIGNvbnN0IGVkaXRvciA9IG5ldyBQeW9kaWRlRXhlcmNpc2VFZGl0b3IoXG4gICAgcHlvZGlkZU9qcy5weW9kaWRlUHJvbWlzZSxcbiAgICBibG9jay5jb2RlLFxuICAgIG9wdGlvbnNcbiAgKTtcblxuICByZXR1cm4gZWRpdG9yLmNvbnRhaW5lcjtcbn1cbl9weW9kaWRlX3ZhbHVlXzEgPSBweW9kaWRlT2pzLnByb2Nlc3MoX3B5b2RpZGVfZWRpdG9yXzEsIHt9KTtcbiJ9LHsiY2VsbE5hbWUiOiJweW9kaWRlLXByZWx1ZGUiLCJpbmxpbmUiOmZhbHNlLCJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJweW9kaWRlT2pzID0ge1xuICBjb25zdCB7XG4gICAgUHlvZGlkZUV2YWx1YXRvcixcbiAgICBQeW9kaWRlRW52aXJvbm1lbnRNYW5hZ2VyLFxuICAgIHNldHVwUHl0aG9uLFxuICAgIHN0YXJ0UHlvZGlkZVdvcmtlcixcbiAgICBiNjREZWNvZGUsXG4gICAgY29sbGFwc2VQYXRoLFxuICB9ID0gd2luZG93Ll9leGVyY2lzZV9vanNfcnVudGltZTtcblxuICBjb25zdCBzdGF0dXNDb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImV4ZXJjaXNlLWxvYWRpbmctc3RhdHVzXCIpO1xuICBjb25zdCBpbmRpY2F0b3JDb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImV4ZXJjaXNlLWxvYWRpbmctaW5kaWNhdG9yXCIpO1xuICBpbmRpY2F0b3JDb250YWluZXIuY2xhc3NMaXN0LnJlbW92ZShcImQtbm9uZVwiKTtcblxuICBsZXQgc3RhdHVzVGV4dCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIilcbiAgc3RhdHVzVGV4dC5jbGFzc0xpc3QgPSBcImV4ZXJjaXNlLWxvYWRpbmctZGV0YWlsc1wiO1xuICBzdGF0dXNUZXh0ID0gc3RhdHVzQ29udGFpbmVyLmFwcGVuZENoaWxkKHN0YXR1c1RleHQpO1xuICBzdGF0dXNUZXh0LnRleHRDb250ZW50ID0gYEluaXRpYWxpc2VgO1xuXG4gIC8vIEhvaXN0IGluZGljYXRvciBvdXQgZnJvbSBmaW5hbCBzbGlkZSB3aGVuIHJ1bm5pbmcgdW5kZXIgcmV2ZWFsXG4gIGNvbnN0IHJldmVhbFN0YXR1cyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIucmV2ZWFsIC5leGVyY2lzZS1sb2FkaW5nLWluZGljYXRvclwiKTtcbiAgaWYgKHJldmVhbFN0YXR1cykge1xuICAgIHJldmVhbFN0YXR1cy5yZW1vdmUoKTtcbiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnJldmVhbCA+IC5zbGlkZXNcIikuYXBwZW5kQ2hpbGQocmV2ZWFsU3RhdHVzKTtcbiAgfVxuXG4gIC8vIE1ha2UgYW55IHJldmVhbCBzbGlkZXMgd2l0aCBsaXZlIGNlbGxzIHNjcm9sbGFibGVcbiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChcIi5yZXZlYWwgLmV4ZXJjaXNlLWNlbGxcIikuZm9yRWFjaCgoZWwpID0+IHtcbiAgICBlbC5jbG9zZXN0KCdzZWN0aW9uLnNsaWRlJykuY2xhc3NMaXN0LmFkZChcInNjcm9sbGFibGVcIik7XG4gIH0pXG5cbiAgLy8gUHlvZGlkZSBzdXBwbGVtZW50YWwgZGF0YSBhbmQgb3B0aW9uc1xuICBjb25zdCBkYXRhQ29udGVudCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoYHNjcmlwdFt0eXBlPVxcXCJweW9kaWRlLWRhdGFcXFwiXWApLnRleHRDb250ZW50O1xuICBjb25zdCBkYXRhID0gSlNPTi5wYXJzZShiNjREZWNvZGUoZGF0YUNvbnRlbnQpKTtcblxuICAvLyBHcmFiIGxpc3Qgb2YgcmVzb3VyY2VzIHRvIGJlIGRvd25sb2FkZWRcbiAgY29uc3QgZmlsZXNDb250ZW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3Rvcihgc2NyaXB0W3R5cGU9XFxcInZmcy1maWxlXFxcIl1gKS50ZXh0Q29udGVudDtcbiAgY29uc3QgZmlsZXMgPSBKU09OLnBhcnNlKGI2NERlY29kZShmaWxlc0NvbnRlbnQpKTtcblxuICBsZXQgcHlvZGlkZVByb21pc2UgPSAoYXN5bmMgKCkgPT4ge1xuICAgIHN0YXR1c1RleHQudGV4dENvbnRlbnQgPSBgRG93bmxvYWRpbmcgUHlvZGlkZWA7XG4gICAgY29uc3QgcHlvZGlkZSA9IGF3YWl0IHN0YXJ0UHlvZGlkZVdvcmtlcihkYXRhLm9wdGlvbnMpO1xuXG4gICAgc3RhdHVzVGV4dC50ZXh0Q29udGVudCA9IGBEb3dubG9hZGluZyBwYWNrYWdlOiBtaWNyb3BpcGA7XG4gICAgYXdhaXQgcHlvZGlkZS5sb2FkUGFja2FnZShcIm1pY3JvcGlwXCIpO1xuICAgIGNvbnN0IG1pY3JvcGlwID0gYXdhaXQgcHlvZGlkZS5weWltcG9ydChcIm1pY3JvcGlwXCIpO1xuICAgIGF3YWl0IGRhdGEucGFja2FnZXMucGtncy5tYXAoKHBrZykgPT4gKCkgPT4ge1xuICAgICAgc3RhdHVzVGV4dC50ZXh0Q29udGVudCA9IGBEb3dubG9hZGluZyBwYWNrYWdlOiAke3BrZ31gO1xuICAgICAgcmV0dXJuIG1pY3JvcGlwLmluc3RhbGwocGtnKTtcbiAgICB9KS5yZWR1Y2UoKGN1ciwgbmV4dCkgPT4gY3VyLnRoZW4obmV4dCksIFByb21pc2UucmVzb2x2ZSgpKTtcbiAgICBhd2FpdCBtaWNyb3BpcC5kZXN0cm95KCk7XG5cbiAgICAvLyBEb3dubG9hZCBhbmQgaW5zdGFsbCByZXNvdXJjZXNcbiAgICBhd2FpdCBmaWxlcy5tYXAoKGZpbGUpID0+IGFzeW5jICgpID0+IHtcbiAgICAgIGNvbnN0IG5hbWUgPSBmaWxlLnN1YnN0cmluZyhmaWxlLmxhc3RJbmRleE9mKCcvJykgKyAxKTtcbiAgICAgIHN0YXR1c1RleHQudGV4dENvbnRlbnQgPSBgRG93bmxvYWRpbmcgcmVzb3VyY2U6ICR7bmFtZX1gO1xuICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChmaWxlKTtcbiAgICAgIGlmICghcmVzcG9uc2Uub2spIHtcbiAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBDYW4ndCBkb3dubG9hZCBcXGAke2ZpbGV9XFxgLiBFcnJvciAke3Jlc3BvbnNlLnN0YXR1c306IFwiJHtyZXNwb25zZS5zdGF0dXNUZXh0fVwiLmApO1xuICAgICAgfVxuICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmFycmF5QnVmZmVyKCk7XG5cbiAgICAgIC8vIFN0b3JlIFVSTHMgaW4gdGhlIGN3ZCB3aXRob3V0IGFueSBzdWJkaXJlY3Rvcnkgc3RydWN0dXJlXG4gICAgICBpZiAoZmlsZS5pbmNsdWRlcyhcIjovL1wiKSkge1xuICAgICAgICBmaWxlID0gbmFtZTtcbiAgICAgIH1cblxuICAgICAgLy8gQ29sbGFwc2UgaGlnaGVyIGRpcmVjdG9yeSBzdHJ1Y3R1cmVcbiAgICAgIGZpbGUgPSBjb2xsYXBzZVBhdGgoZmlsZSk7XG5cbiAgICAgIC8vIENyZWF0ZSBkaXJlY3RvcnkgdHJlZSwgaWdub3JpbmcgXCJkaXJlY3RvcnkgZXhpc3RzXCIgVkZTIGVycm9yc1xuICAgICAgY29uc3QgcGFydHMgPSBmaWxlLnNwbGl0KCcvJykuc2xpY2UoMCwgLTEpO1xuICAgICAgbGV0IHBhdGggPSAnJztcbiAgICAgIHdoaWxlIChwYXJ0cy5sZW5ndGggPiAwKSB7XG4gICAgICAgIHBhdGggKz0gcGFydHMuc2hpZnQoKSArICcvJztcbiAgICAgICAgdHJ5IHtcbiAgICAgICAgICBhd2FpdCBweW9kaWRlLkZTLm1rZGlyKHBhdGgpO1xuICAgICAgICB9IGNhdGNoIChlKSB7XG4gICAgICAgICAgaWYgKGUubmFtZSAhPT0gXCJFcnJub0Vycm9yXCIpIHRocm93IGU7XG4gICAgICAgICAgaWYgKGUuZXJybm8gIT09IDIwKSB7XG4gICAgICAgICAgICBjb25zdCBlcnJvclRleHRQdHIgPSBhd2FpdCBweW9kaWRlLl9tb2R1bGUuX3N0cmVycm9yKGUuZXJybm8pO1xuICAgICAgICAgICAgY29uc3QgZXJyb3JUZXh0ID0gYXdhaXQgcHlvZGlkZS5fbW9kdWxlLlVURjhUb1N0cmluZyhlcnJvclRleHRQdHIpO1xuICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBGaWxlc3lzdGVtIEVycm9yICR7ZS5lcnJub30gXCIke2Vycm9yVGV4dH1cIi5gKTtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIH1cblxuICAgICAgLy8gV3JpdGUgdGhpcyBmaWxlIHRvIHRoZSBWRlNcbiAgICAgIHRyeSB7XG4gICAgICAgIHJldHVybiBhd2FpdCBweW9kaWRlLkZTLndyaXRlRmlsZShmaWxlLCBuZXcgVWludDhBcnJheShkYXRhKSk7XG4gICAgICB9IGNhdGNoIChlKSB7XG4gICAgICAgIGlmIChlLm5hbWUgIT09IFwiRXJybm9FcnJvclwiKSB0aHJvdyBlO1xuICAgICAgICBjb25zdCBlcnJvclRleHRQdHIgPSBhd2FpdCBweW9kaWRlLl9tb2R1bGUuX3N0cmVycm9yKGUuZXJybm8pO1xuICAgICAgICBjb25zdCBlcnJvclRleHQgPSBhd2FpdCBweW9kaWRlLl9tb2R1bGUuVVRGOFRvU3RyaW5nKGVycm9yVGV4dFB0cik7XG4gICAgICAgIHRocm93IG5ldyBFcnJvcihgRmlsZXN5c3RlbSBFcnJvciAke2UuZXJybm99IFwiJHtlcnJvclRleHR9XCIuYCk7XG4gICAgICB9XG4gICAgfSkucmVkdWNlKChjdXIsIG5leHQpID0+IGN1ci50aGVuKG5leHQpLCBQcm9taXNlLnJlc29sdmUoKSk7XG5cbiAgICBzdGF0dXNUZXh0LnRleHRDb250ZW50ID0gYFB5b2RpZGUgZW52aXJvbm1lbnQgc2V0dXBgO1xuICAgIGF3YWl0IHNldHVwUHl0aG9uKHB5b2RpZGUpO1xuXG4gICAgc3RhdHVzVGV4dC5yZW1vdmUoKTtcbiAgICBpZiAoc3RhdHVzQ29udGFpbmVyLmNoaWxkcmVuLmxlbmd0aCA9PSAwKSB7XG4gICAgICBzdGF0dXNDb250YWluZXIucGFyZW50Tm9kZS5yZW1vdmUoKTtcbiAgICB9XG4gICAgcmV0dXJuIHB5b2RpZGU7XG4gIH0pKCkuY2F0Y2goKGVycikgPT4ge1xuICAgIHN0YXR1c1RleHQuc3R5bGUuY29sb3IgPSBcInZhcigtLWV4ZXJjaXNlLWVkaXRvci1obC1lciwgI0FEMDAwMClcIjtcbiAgICBzdGF0dXNUZXh0LnRleHRDb250ZW50ID0gZXJyLm1lc3NhZ2U7XG4gICAgLy9pbmRpY2F0b3JDb250YWluZXIucXVlcnlTZWxlY3RvcihcIi5zcGlubmVyLWdyb3dcIikuY2xhc3NMaXN0LmFkZChcImQtbm9uZVwiKTtcbiAgICB0aHJvdyBlcnI7XG4gIH0pO1xuXG4gIC8vIEtlZXAgdHJhY2sgb2YgaW5pdGlhbCBPSlMgYmxvY2sgcmVuZGVyXG4gIGNvbnN0IHJlbmRlcmVkT2pzID0ge307XG5cbiAgY29uc3QgcHJvY2VzcyA9IGFzeW5jIChjb250ZXh0LCBpbnB1dHMpID0+IHtcbiAgICBjb25zdCBweW9kaWRlID0gYXdhaXQgcHlvZGlkZVByb21pc2U7XG4gICAgY29uc3QgZXZhbHVhdG9yID0gbmV3IFB5b2RpZGVFdmFsdWF0b3IocHlvZGlkZSwgY29udGV4dCk7XG4gICAgYXdhaXQgZXZhbHVhdG9yLnByb2Nlc3MoaW5wdXRzKTtcbiAgICByZXR1cm4gZXZhbHVhdG9yLmNvbnRhaW5lcjtcbiAgfVxuXG4gIHJldHVybiB7XG4gICAgcHlvZGlkZVByb21pc2UsXG4gICAgcmVuZGVyZWRPanMsXG4gICAgcHJvY2VzcyxcbiAgfTtcbn1cbiJ9XX0=
+</script>
+<div id="exercise-loading-indicator" class="exercise-loading-indicator d-none d-flex align-items-center gap-2">
+<div id="exercise-loading-status" class="d-flex gap-2">
+
+</div>
+<div class="spinner-grow spinner-grow-sm">
+
+</div>
+</div>
+<script type="vfs-file">
+WyIuLi8uLi9DTkFNRSJd
+</script>
+</section>
+
+ ]]></description>
+  <guid>https://www.kristjanrox.com/articles/monty_hall/monty_hall.html</guid>
+  <pubDate>Mon, 29 Dec 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.kristjanrox.com/articles/monty_hall/figures/Monty_open_door.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+</channel>
+</rss>

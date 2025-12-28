@@ -11,6 +11,7 @@ format:
     smooth-scroll: true
     numbered-sections: true
     fig-caption: true
+draft: true
 ---
 
 In Part 1 of this series - the fundamental requirements and building blocks of aircraft weight & balance were introduced.
@@ -23,10 +24,10 @@ This is a binary requirement, i.e. either it is inside the envelope or outside. 
 
 In this Part 2 of the series - we'll investigate how CG certain locations inside the envelope are better than others and how an aircraft's weight and balance affects operational efficiency.
 
-::: {.callout-note}
-## A few things to keep in mind 
-::: {.panel-tabset}
+:::: callout-note
+## A few things to keep in mind
 
+::: panel-tabset
 Before going further, there are a few elements to keep in mind:
 
 ### the first thing
@@ -43,18 +44,19 @@ For cargo aircraft, lateral CG may also be evaluated and compared with associate
 
 In this article - we'll be discussing only longitudinal CG.
 :::
-:::
+::::
 
 ## How does W&B affect operational efficiency?
+
 The weight and balance of an aircraft will affect two aspects of operational efficiency:
 
-1. Firstly, the aircraft CG, which is determined by the load distribution, affects the fuel efficiency of the aircraft in flight. Therefore, certain CG locations are better than others.
+1.  Firstly, the aircraft CG, which is determined by the load distribution, affects the fuel efficiency of the aircraft in flight. Therefore, certain CG locations are better than others.
 
-2. Secondly, the distribution of load on an aircraft determines the process of loading and unloading the aircraft before and after flight respectively, which then affects the same process on the next flight of the aircraft and so on. Certain items have higher priority than others, and must be able to be offloaded first.\
-\
-Overall, efficient loading and unloading processes strike a balance between the time  they take and how many resources they required.\
-\
-We'll refer to this aspect of efficiency as *loading ergonomics*.
+2.  Secondly, the distribution of load on an aircraft determines the process of loading and unloading the aircraft before and after flight respectively, which then affects the same process on the next flight of the aircraft and so on. Certain items have higher priority than others, and must be able to be offloaded first.\
+    \
+    Overall, efficient loading and unloading processes strike a balance between the time they take and how many resources they required.\
+    \
+    We'll refer to this aspect of efficiency as *loading ergonomics*.
 
 We'll look into each of these aspect in more detail.
 
@@ -68,7 +70,7 @@ CG locations further aft along the aircraft fuselage are better.
 
 To explain why this is the case, we need some physics and math. If that is not your forte, then please follow along regardless, as there is commentary provided along the way.
 
-::: {.panel-tabset}
+::: panel-tabset
 ### The math
 
 Consider a transport aircraft with weight $W$ in steady and level flight at an angle of attack $\alpha$ relative to the oncoming airflow. The below figure shows such an aircraft and the forces acting on it due to the wings and tail, and due to its own weight. For our demonstration, we only need to consider those forces.

@@ -22,8 +22,8 @@ format:
 
 I am an aerospace engineer, pilot, and applied mathematician.
 
-I'll be publishing [blog posts](blog.qmd) and [case studies](case_studies.qmd) related to various topics of interest.
+I'll be publishing [articles](index.qmd) related to various topics of interest.
 
-Feel free to [get in touch by email](mailto:kriorog@gmail.com) or via [LinkedIn](https://www.linkedin.com/in/kristjanrox).
+Feel free to [get in touch by email](mailto:kristjan@eremreykjavik.com) or via [LinkedIn](https://www.linkedin.com/in/kristjanrox).
 
 /Röx

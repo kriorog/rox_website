@@ -3,6 +3,7 @@ title: "The start of something beautiful"
 description: "...or a restart"
 author: "Röx"
 date: "25-MAR-2025"
+draft: true
 ---
 
 # Prelude

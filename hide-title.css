@@ -1,0 +1,20 @@
+/* --- SITE-WIDE NAVBAR (The name next to your avatar) --- */
+.navbar-title, 
+.navbar-brand-text,
+span.navbar-title {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* --- POST-SPECIFIC TITLES (The H1 inside the article) --- */
+/* This removes the header block entirely on individual post pages */
+#title-block-header,
+.quarto-title-block,
+header.quarto-title-block {
+  display: none !important;
+}
+
+/* This removes the title specifically on the index/listing page */
+h1.title {
+  display: none !important;
+}

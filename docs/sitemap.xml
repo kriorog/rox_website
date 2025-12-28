@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.kristjanrox.com/index.html</loc>
-    <lastmod>2025-09-03T19:55:58.184Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.kristjanrox.com/about.html</loc>
-    <lastmod>2025-04-03T22:26:04.055Z</lastmod>
+    <lastmod>2025-12-28T23:12:01.754Z</lastmod>
   </url>
   <url>
-    <loc>https://www.kristjanrox.com/articles/test_blog/first_blog.html</loc>
-    <lastmod>2025-04-03T22:27:25.708Z</lastmod>
+    <loc>https://www.kristjanrox.com/articles/monty_hall/monty_hall.html</loc>
+    <lastmod>2025-12-28T23:05:54.045Z</lastmod>
   </url>
   <url>
-    <loc>https://www.kristjanrox.com/articles/tekna_blog/blog post 2.html</loc>
-    <lastmod>2025-09-03T19:50:46.652Z</lastmod>
+    <loc>https://www.kristjanrox.com/index.html</loc>
+    <lastmod>2025-12-28T23:03:06.374Z</lastmod>
   </url>
 </urlset>
