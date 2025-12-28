@@ -5,7 +5,7 @@ project:
   
 website:
   # title: "Kristjan Röx"
-  site-url: https://www.kristjanrox.com
+  site-url: "https://www.kristjanrox.com"
   description: "Röx website"
   favicon: "figures/rox_logo_transparent.png"
   draft-mode: gone
@@ -34,7 +34,6 @@ website:
 format:
   html:
     theme: journal
-    css: styles.css
     toc: true
     title-block-banner: true
     highlight-style: atom-one
